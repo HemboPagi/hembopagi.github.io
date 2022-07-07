@@ -1,8 +1,150 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Hembo's web portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HP web portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,600&family=Roboto:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+        line-height: 2rem;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        line-height: 2rem;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        padding: 1rem 0;
+      }
+      .intro {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 3rem;
+      }
+      .content {
+        width: 50%;
+        margin: 3rem auto;
+      }
+      @media (max-width: 1000px) {
+        .content {
+          width: 90%;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Hembo's web portfolio</h1>
+    <div class="content">
+      <h1>I like what I have done ...</h1>
+      <div class="intro">
+        <p>
+          Projects, where I have put in more energy than I received back...<br />
+          because I believe into their goal and vision.
+        </p>
+      </div>
+
+      <h2>Estonian national costumes</h2>
+      <p>
+        Estonian national costume website is my first experience with
+        React/Next.js. Initial Next.js functionality was written by other
+        developer, my task was to build user interfaces. Now, after one year the
+        site was launched I can see many things what could be done differently.
+        Website uses IIP image server for saving high-quality zoomable images.
+        This website is also one of very few in Estonia which serves all the
+        images based on <a href="https://iiif.io">IIIF standard</a>. This means,
+        that all the images (which is the main focus of the website) with
+        metadata can be viewed and queried by
+        <a
+          href="https://projectmirador.org/embed/?iiif-content=https://cms.rahvaroivad.ee/wp-json/iiif/manifest/gallery/172"
+          >third-party systems</a
+        >.
+      </p>
+      <p>
+        <strong>Have a look:</strong>
+        <a href="https://rahvaroivad.ee">rahvaroivad.ee</a>
+      </p>
+      <img src="images/rahvaroivad.png" alt="" width="2066" height="2428" />
+
+      <h2>Ackermann research project</h2>
+      <p>
+        The Ackermann project involved the documentation and conservation of
+        wooden sculptures by Christian Ackermann in different churches in
+        Estonia. In addition to the recording of the wooden sculptures that we
+        have completed, we built a web/mobile website, as well as kiosk setup
+        for the church.
+      </p>
+      <p>My role was technical project manager as well as frontend developer.</p>
+      <p>
+        <strong>Have a look:</strong>
+        <a href="https://www.ackermann.ee">ackermann.ee</a> and
+        <a href="https://www.ackermann.ee/naitus/">exhibition version</a>
+        (requires 4K screen)
+      </p>
+      <img src="images/ackermann.png" alt="" width="2712" height="2664" />
+
+      <h2>New Forest Knowledge</h2>
+      <p>
+        In this project we have created a simple to use website that contains a
+        great level of complexity. It draws together over 20 different types of
+        data sources from external bodies, into one manageable system providing
+        users with access to a wealth of knowledge about the New Forest.
+      </p>
+      <p>
+        It includes a web mapping system, a data aggregator and an advanced
+        search functionality plus many various bespoke interactive tools which
+        adds a level of usability to the site that other similar systems are
+        unable to provide.
+      </p>
+      <p>My role was technical project manager as well as frontend developer.</p>
+      <p>
+        <strong>Have a look:</strong>
+        <a href="https://nfknowledge.org">nfknowledge.org</a>
+      </p>
+      <img src="images/nfk.png" alt="" width="1874" height="2576" />
+
+      <h2>Google Chrome extension</h2>
+
+      <p>
+        This is a bit different project as stuff above. Here my idea was to
+        speed up the processes in the museum by "hacking" the Estonian Museum
+        Information System (MuIS). What I did was the extension for Google
+        Chrome to extend the functionality of MuIS, so that different tasks and
+        queries could be made using barcode scanner. This simple thing helps to
+        save weeks or with the bigger collection in bigger organisations even
+        months of working time.
+      </p>
+      <p>
+        <strong>Have a look:</strong>
+        <a
+          href="https://chrome.google.com/webstore/detail/muisi-abiline/kladebffgahpoofehamjiobhbofeeoem"
+          >MuISi abiline</a
+        >
+      </p>
+      <div class="intro">
+        <p>
+          My academic work can be followed via
+          <a href="https://www.etis.ee/CV/Hembo_Pagi/eng?lang=ENG">Etis</a> and
+          <a href="https://tallinn.academia.edu/HemboPagi">Academia</a>.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
